@@ -3,17 +3,17 @@ var boards ="";
 for (var i = 0; i<8; i++) {
     for (var j=0;j<8;j++) {
         if(i%2==0) {
-            board+="■";
-            board+=" ";
+            boards+="■";
+            boards+=" ";
 
 
         } else {
-            board+=" ";
-            board+="■";
+            boards+=" ";
+            boards+="■";
 
         }
     }
-    board+="\n"
+    boards+="\n"
 
 }
 console.log(boards)
